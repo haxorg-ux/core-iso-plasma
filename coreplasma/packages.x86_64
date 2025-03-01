@@ -334,9 +334,11 @@ squashfs-tools
 
 ## -------- custom sourcecorearch ------ ##
 # etcher-bin
+downgrade
 mkinitcpio-openswap
 ckbcomp
 core-calamares
+core-calamares-config
 
 ##### want to add/use the Chaotic repo
 chaotic-mirrorlist

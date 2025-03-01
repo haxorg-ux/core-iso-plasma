@@ -30,20 +30,28 @@ Presentation
 
     Slide {
         anchors.fill: parent
+        anchors.verticalCenterOffset: 0
 
         Image {
             id: background1
             source: "slides/1.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
             anchors.fill: parent
         }
     }
 
     Slide {
         anchors.fill: parent
+        anchors.verticalCenterOffset: 0
 
         Image {
             id: background2
-            source: "slides/2.png"
+            source: "slides/1.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
             anchors.fill: parent
         }
     }

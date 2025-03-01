@@ -201,54 +201,61 @@ zip
 wireguard-tools
 plasma-framework5
 
+###bluetooth
+blueberry
+bluez
+bluez-libs
+bluez-utils
+
+###printers
+cups
+cups-filters
+cups-pdf
+ghostscript
+gsfonts
+gutenprint
+system-config-printer
+
+# dual boot
+os-prober
+lsb-release
+
 ## -------- WAYLAND -------- ##
 xdg-desktop-portal
 wl-clipboard
 
-## -------- XORG -------- ##
-
-mesa
-mesa-utils
-xclip
+## Xorg Server ------------------------------
 xorg
-xorg-server
-xorg-server-xvfb
-xorg-apps
-xorg-drivers
-xorg-xkill
-xorg-xinit
-xorg-xrdb
+
+## Touchpad and Mouse ------------------------------
 xorg-xinput
-xorg-xrandr
-phodav
-xf86-input-evdev
 xf86-input-libinput
+
+## GPU Drivers (Intel/AMD/VM) ------------------------------
 xf86-video-fbdev
 xf86-video-vesa
-xf86-video-ati
-# xf86-video-amdgpu
 xf86-video-intel
+xf86-video-amdgpu
+xf86-video-ati
+mesa
+mesa-utils
+
+## GPU Drivers (Nvidia) ------------------------------
 xf86-video-nouveau
-# nvidia
-# nvidia-utils
-# nvidia-settings
+nvidia
+nvidia-utils
+nvidia-settings
 
-
+## Hypervisors ------------------------------
+virtualbox-guest-utils
+qemu-guest-agent
+open-vm-tools
+xf86-input-vmmouse
+xf86-video-vmware
 
 # vm
 spice-vdagent
 xf86-video-qxl
-
-# virtual box
-virtualbox-guest-utils
-
-# qemu
-qemu-guest-agent
-
-# vmware
-open-vm-tools
-xf86-input-vmmouse
-xf86-video-vmware
 
 ## -------- DISPLAY MANAGER -------- ##
 sddm
@@ -330,11 +337,6 @@ squashfs-tools
 mkinitcpio-openswap
 ckbcomp
 core-calamares
-
-## -------- local repo -------- ##
-# core-calamares
-# mkinitcpio-openswap
-# ckbcomp
 
 ##### want to add/use the Chaotic repo
 chaotic-mirrorlist
